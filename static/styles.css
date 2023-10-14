@@ -1,0 +1,67 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+}
+
+.container  {
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+    top: -5vh;
+    padding: 1rem;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+
+.header {
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: #000;
+}
+
+
+h1, h2 {
+    text-align: center;
+}
+
+input {
+    display: bold;
+    padding: 0.75rem;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+button {
+    width: 100%;
+    padding: 0.75rem;
+    color: #fff;
+    background: #444;
+}
+
+.instruction {
+    max-width: 800px;
+    border: 1px dashed #fff;
+    color: #fff;
+    padding: 1rem;
+}
+
+.prediction {
+    position: absolute;
+    padding: 0.25rem 1rem;
+    background: #fff;
+    top: 1rem;
+    right: 1rem;
+}
